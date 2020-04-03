@@ -3,8 +3,8 @@
   --serif: "Merriweather";
   --sans-serif: "Open Sans";
   --bg-color: hsla(0, 100%, 98%, 0.7);
-  --color: #774747;
-  --accent: #6e9075;
+  --color: hsl(0, 58%, 39%);
+  --accent: hsl(130, 59%, 24%);
   --tint: #ffe6e6;
 }
 
@@ -42,9 +42,10 @@ h6 {
   font-family: var(--serif);
   text-align: center;
   color: var(--accent);
-  text-shadow: 5px 5px 10px #999;
+  /* text-shadow: 5px 5px 10px #999; */
   width: 90%;
   margin: 0 auto;
+  background: radial-gradient(hsla(0, 100%, 98%, 1), hsla(0, 100%, 98%, 0) 20%);
 }
 p {
   text-align: justify;
@@ -54,7 +55,9 @@ p {
 #description {
   font-weight: 400;
 }
-
+.form--width {
+  font-size: 0.9rem;
+}
 .form-label {
   width: 70%;
 }
@@ -225,7 +228,7 @@ textarea:focus {
 
   .form--width {
     width: 100%;
-    padding: 6px 12px;
+    padding: 1em;
   }
   .form-label {
     width: 50%;
