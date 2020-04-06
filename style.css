@@ -74,7 +74,12 @@ label {
   display: block;
   width: 70%;
   margin: 0 auto;
-  padding-top: 1em;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+  margin-bottom: 1em;
 }
 /*3. Structure Styles */
 
@@ -225,11 +230,11 @@ textarea:focus {
 /* non-mobile styles */
 @media only screen AND (min-width: 480px) {
   h1 {
-    font-size: 3rem;
+    font-size: 3.1rem;
   }
   #description {
-    text-align: center;
-    font-size: 1.22em;
+    text-align: left;
+    font-size: 1.1em;
   }
   label {
     display: block;
