@@ -114,7 +114,7 @@ textarea {
   border-radius: 5px;
   background-color: var(--accent);
   padding: 12px;
-  color: var(--bg-color);
+  color: var(--color);
   border: none;
 }
 
