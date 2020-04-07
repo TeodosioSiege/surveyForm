@@ -116,6 +116,23 @@ textarea {
   padding: 12px;
   color: var(--color);
   border: none;
+  position: relative;
+}
+#submit:hover {
+  animation-name: onhover;
+  animation-duration: 300ms;
+  animation-fill-mode: forwards;
+}
+#submit:focus {
+  box-shadow: none;
+  color: var(--accent);
+  background-color: var(--color);
+}
+
+@keyframes onhover {
+  100% {
+    transform: scale(1.1);
+  }
 }
 
 input:focus,
